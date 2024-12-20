@@ -9,13 +9,13 @@ export default function Home() {
             <section
                 className="h-screen w-full overflow-hidden relative"
                 style={{
-                    backgroundImage: "url('./assets/page1/bg.png')",
+                    backgroundImage: "url('./assets/bg.png')",
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                 }}
             >
-                <img src="./assets/page1/art.gif" className="bottom-0 left-0 absolute " alt="" />
-                <img src="./assets/page1/title.png" className="top-[5%] right-[10%] absolute " alt="" />
+                <img src="./assets/art.gif" className="bottom-0 left-0 absolute " alt="" />
+                <img src="./assets/title.png" className="top-[5%] right-[10%] absolute " alt="" />
                 <div className="absolute bottom-[30%] right-[16%]  flex gap-5">
                     <Link href={'#'}>
                         <img className="hover:animate-shake" src="./assets/Page1/PILL.png" alt="" />
