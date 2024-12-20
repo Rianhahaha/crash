@@ -1,0 +1,20 @@
+{
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "editor.rulers": [150],
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "tailwindCSS.classAttributes": ["class", "className", "classNames"],
+    "emmet.includeLanguages": {
+        "postcss": "css"
+    },
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    }
+}

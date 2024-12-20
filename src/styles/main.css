@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-plusJakartaSans {
+    font-family: var(--font-plus-jakarta-sans);
+}
+
+.font-outfit {
+    font-family: var(--font-outfit);
+}
+
+@layer base {
+    :root {
+        --background: '#B1D3D2';
+        --foreground: '#2D384D';
+        --card: '';
+        --card-foreground: '';
+        --popover: '';
+        --popover-foreground: '';
+        --primary: '#E0DCC1';
+        --primary-foreground: '';
+        --secondary: '';
+        --secondary-foreground: '';
+        --muted: '';
+        --muted-foreground: '';
+        --accent: '';
+        --accent-foreground: '';
+        --destructive: '';
+        --destructive-foreground: '';
+        --border: '#2D384D';
+        --input: '';
+        --ring: '';
+        --radius: '';
+        --chart-1: '';
+        --chart-2: '';
+        --chart-3: '';
+        --chart-4: '';
+        --chart-5: '';
+    }
+
+    .dark {
+        --background: '';
+        --foreground: '';
+        --card: '';
+        --card-foreground: '';
+        --popover: '';
+        --popover-foreground: '';
+        --primary: '';
+        --primary-foreground: '';
+        --secondary: '';
+        --secondary-foreground: '';
+        --muted: '';
+        --muted-foreground: '';
+        --accent: '';
+        --accent-foreground: '';
+        --destructive: '';
+        --destructive-foreground: '';
+        --border: '';
+        --input: '';
+        --ring: '';
+        --chart-1: '';
+        --chart-2: '';
+        --chart-3: '';
+        --chart-4: '';
+        --chart-5: '';
+    }
+}
+
+@layer base {
+    * {
+        @apply transition-all duration-500;
+        @apply border-border;
+    }
+
+    body {
+        @apply bg-background text-foreground;
+        overflow-x: hidden;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #513242;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #2d384d;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #2d384d;
+}
+
+.comic-neue-light {
+    font-family: 'Comic Neue', cursive;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.comic-neue-regular {
+    font-family: 'Comic Neue', cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.comic-neue-bold {
+    font-family: 'Comic Neue', cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.comic-neue-light-italic {
+    font-family: 'Comic Neue', cursive;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.comic-neue-regular-italic {
+    font-family: 'Comic Neue', cursive;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.comic-neue-bold-italic {
+    font-family: 'Comic Neue', cursive;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.balsamiq-sans-regular {
+    font-family: 'Balsamiq Sans', serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.balsamiq-sans-bold {
+    font-family: 'Balsamiq Sans', serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.balsamiq-sans-regular-italic {
+    font-family: 'Balsamiq Sans', serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.balsamiq-sans-bold-italic {
+    font-family: 'Balsamiq Sans', serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.mulish-light {
+    font-family: 'Mulish', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.mulish-regular {
+    font-family: 'Mulish', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.mulish-medium {
+    font-family: 'Mulish', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.mulish-bold {
+    font-family: 'Mulish', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.mulish-extra-bold {
+    font-family: 'Mulish', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.mulish-black {
+    font-family: 'Mulish', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.poppins-thin {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.poppins-extra-light {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.poppins-light {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.poppins-regular {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-medium {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-semi-bold {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-extra-bold {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.poppins-black {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
