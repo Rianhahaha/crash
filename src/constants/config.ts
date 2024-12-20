@@ -134,10 +134,10 @@ export interface TConfig {
 
 export const themeConfig: TConfig = {
     meta: {
-        title: 'Crash',
+        title: 'DIP',
         subtitle: 'Degens In Pain',
         description: 'Degens In Pain',
-        name: 'Crash',
+        name: 'DIP',
         url: '/',
         favicon: '/logo.png',
         logo: {
