@@ -12,14 +12,14 @@ import { PublicEnvScript } from 'next-runtime-env';
 import localFont from 'next/font/local';
 import { Analytics, Providers } from './providers';
 
-// const fontMain = localFont({
-//     src: [
-//         {
-//             path: '../../public/assets/fonts/alphabetized_cassette_tapes.ttf',
-//         },
-//     ],
-//     variable: '--font-main',
-// });
+const fontMain = localFont({
+    src: [
+        {
+            path: '../../public/assets/fonts/ashcanbb_bold.ttf',
+        },
+    ],
+    variable: '--font-main',
+});
 
 export async function generateMetadata(): Promise<Metadata> {
     const config = themeConfig;
@@ -124,7 +124,7 @@ export default async function Layout({ children }: TLayoutProps) {
                 `}
                     </style>
                 </head>
-                <body className={cn(['font-main text-black antialiased bg-[#E8E8E8]'])}>
+                <body className={cn([fontMain.variable, 'font-main text-black antialiased bg-[#E8E8E8]'])}>
                     {!config?.maintenance?.isMaintenance ? (
                         <>
                             <Analytics config={config} />
